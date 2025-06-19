@@ -3,10 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
-import statsmodels.formula.api as smf
 import time
-from datetime import datetime, timedelta
-
 from datetime import datetime, timedelta
 
 def get_mature_weeks(df, window_days, week_col='week_dt', max_weeks=4, target_col=None):
